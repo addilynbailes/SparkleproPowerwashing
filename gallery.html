@@ -1,28 +1,80 @@
-<!DOCTYPE html><html><head><title>Gallery</title><link rel="stylesheet" href="styles.css"></head><body><header><h1>Gallery</h1></header><main><p>Add your project photos here.</p></main></body></html>
-<h2>Watch Our Work</h2>
-styles.css
- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | SparklePro Power Washing</title>
+    <meta name="description" content="View a gallery of sample SparklePro Power Washing projects including driveways, house washing, trucks, and patios.">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+        <nav class="navbar" aria-label="Main navigation">
+            <a class="logo" href="index.html" aria-label="SparklePro Power Washing home">
+                <span class="logo-mark">💦</span>
+                <span>SparklePro</span>
+            </a>
+            <button class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false">☰</button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Our Story</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a class="nav-cta" href="contact.html">Free Quote</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main-content">
+        <section class="page-hero gallery-hero">
+            <div class="reveal">
+                <p class="eyebrow">Gallery</p>
+                <h1>Before, after, and in-progress cleaning inspiration.</h1>
+                <p>Every page in this site includes an image with descriptive alt text and captions for accessibility.</p>
+            </div>
+        </section>
 
+        <section class="section">
+            <div class="gallery-grid">
+                <figure class="gallery-card reveal"><img src="driveway.jpg" alt="Power washed driveway with clean concrete finish"><figcaption>Driveway refresh after removing surface grime.</figcaption></figure>
+                <figure class="gallery-card reveal"><img src="housewash.jpg" alt="Clean house exterior after washing"><figcaption>House wash service for siding and porch areas.</figcaption></figure>
+                <figure class="gallery-card reveal"><img src="truck.jpeg" alt="Service truck for a power washing company"><figcaption>Professional equipment ready for the next job.</figcaption></figure>
+            </div>
+        </section>
 
-
-</iframe>
-house.html
-<h2>Project Gallery</h2>
-
- 
-
-<img src="driveway.jpg" alt="Freshly cleaned driveway" width="500">
-
-<p>Driveway cleaning project.</p>
-
- 
-
-<img src="housewash.jpg" alt="House washing service" width="500">
-
-<p>Residential house washing project.</p>
-
- 
-
-<img src="truck.jpeg" alt="SparklePro service truck" width="500">
-
-<p>Our professional service vehicle.</p>
+        <section class="section blue-section">
+            <div class="section-heading reveal">
+                <h2>Accessible animation</h2>
+                <p>The moving water drops below are a lightweight animation. It does not play sound, so it is accessible to visitors with hearing impairments.</p>
+            </div>
+            <div class="water-animation" aria-label="Decorative animated water drops" role="img">
+                <span></span><span></span><span></span><span></span><span></span>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div>
+                <h2>SparklePro Power Washing</h2>
+                <p>A family-owned company proudly helping neighbors keep their homes, sidewalks, decks, and businesses looking fresh.</p>
+            </div>
+            <div>
+                <h3>Explore</h3>
+                <a href="services.html">View our services</a>
+                <a href="pricing.html">Compare packages</a>
+                <a href="gallery.html">See before & after photos</a>
+            </div>
+            <div>
+                <h3>Contact</h3>
+                <p>Call or text: <a href="tel:5555555555">(555) 555-5555</a></p>
+                <p>Email: <a href="mailto:sparklepro@example.com">sparklepro@example.com</a></p>
+                <p><a href="https://www.epa.gov/greenerproducts" target="_blank" rel="noopener">Learn about greener cleaning products</a></p>
+            </div>
+        </div>
+        <p class="copyright">© 2026 SparklePro Power Washing. School project website.</p>
+    </footer>
+    <a class="floating-call" href="tel:5555555555" aria-label="Call SparklePro Power Washing">Call Now</a>
+</body>
+</html>
