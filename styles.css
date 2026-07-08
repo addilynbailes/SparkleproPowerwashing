@@ -735,3 +735,48 @@ fieldset {
         opacity: 1;
     }
 }
+/* =====================================
+   POWER WASH SPRAY ANIMATION
+===================================== */
+
+.spray-banner{
+    width:100%;
+    height:14px;
+    overflow:hidden;
+    background:#0f75bc;
+    position:relative;
+}
+
+.spray-stream{
+    position:absolute;
+    left:-35%;
+    top:0;
+    width:35%;
+    height:100%;
+    background:
+        radial-gradient(circle,#ffffff 2px,transparent 3px),
+        radial-gradient(circle,#8ee9ff 2px,transparent 3px),
+        radial-gradient(circle,#d9fbff 2px,transparent 3px);
+
+    background-size:
+        28px 14px,
+        22px 14px,
+        18px 14px;
+
+    animation:sprayMove 2.5s linear infinite;
+    opacity:.95;
+}
+
+@keyframes sprayMove{
+
+    0%{
+        left:-35%;
+        transform:skewX(-18deg);
+    }
+
+    100%{
+        left:105%;
+        transform:skewX(-18deg);
+    }
+
+}
