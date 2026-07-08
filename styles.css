@@ -670,3 +670,16 @@ fieldset {
 .owner-photo img:hover {
     transform: scale(1.05);
 }
+/* Customer Testimonials */
+
+.service-card h3 {
+    color: #f4b400;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+
+.service-card strong {
+    display: block;
+    margin-top: 18px;
+    color: #0f75bc;
+}
