@@ -626,3 +626,30 @@ fieldset {
         transform: none;
     }
 }
+/* ===== Owner Photo ===== */
+
+.owner-photo {
+    text-align: center;
+}
+
+.owner-photo img {
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 8px solid white;
+    box-shadow: 0 18px 40px rgba(0,0,0,.18);
+    margin: auto;
+    transition: transform .3s ease;
+}
+
+.owner-photo img:hover {
+    transform: scale(1.05);
+}
+
+.owner-photo figcaption {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #555;
+}
