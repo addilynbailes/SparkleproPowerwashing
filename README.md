@@ -1,3 +1,3 @@
 # SparkleproPowerwashing
 A family owned and operated Power washing company. 
-styles.css
+<link rel="stylesheet" href="styles.css">
