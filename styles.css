@@ -653,3 +653,20 @@ fieldset {
     font-size: 1rem;
     color: #555;
 }
+/* About Page Owner Photo */
+
+.owner-photo img {
+    width: 325px;
+    height: 325px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    border: 8px solid white;
+    box-shadow: 0 20px 40px rgba(0,0,0,.2);
+    margin: auto;
+    transition: all .3s ease;
+}
+
+.owner-photo img:hover {
+    transform: scale(1.05);
+}
